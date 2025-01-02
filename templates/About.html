@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+
+{% block body %}
+<div class="container my-5">
+    <h1 class="text-center">About Us</h1>
+    <div class="row mt-4">
+        <div class="col-md-6 my-6">
+             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSFsilP-5x3jCSXJl3_ope2C736ZUOrDkxo-A&s" 
+            class="img-fluid rounded" 
+            style="max-height: 500px; width: 80%; object-fit: contain;" 
+            alt="About Us Image">
+        </div>
+        <div class="col-md-6">
+            <h2>Who We Are</h2>
+            <p>
+                Welcome to <strong>MyToDo</strong>! We are passionate about helping you organize your life and achieve your goals.
+                Our platform is designed to be simple, efficient, and user-friendly, making task management a breeze.
+            </p>
+            <h2>Our Mission</h2>
+            <p>
+                Our mission is to empower individuals and teams by providing a reliable tool for productivity.
+                We believe that everyone deserves to have a clear path to success, and MyToDo is here to help.
+            </p>
+            <h2>What We Offer</h2>
+            <ul>
+                <li>Effortless task management</li>
+                <li>Intuitive user interface</li>
+                <li>Features tailored to enhance productivity</li>
+                <li>Commitment to continuous improvement</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<style>
+    h1 {
+        font-family: 'Arial', sans-serif;
+        font-weight: bold;
+        color: #333;
+    }
+    h2 {
+        color: #555;
+        margin-top: 20px;
+    }
+    p {
+        line-height: 1.8;
+        color: #666;
+    }
+    ul {
+        color: #444;
+        margin-top: 10px;
+    }
+    ul li {
+        margin-bottom: 5px;
+    }
+    img {
+        border: 2px solid #ddd;
+    }
+</style>
+
+{% endblock body %}
